@@ -35,8 +35,8 @@ code {
 {
     border:none;
     border-radius:1.5rem;
-    padding: 1%;
-    width: 20%;
+    padding: 5px 2rem;
+    width: fit-content;
     cursor: pointer;
     background: #0062cc;
     color: #fff;
