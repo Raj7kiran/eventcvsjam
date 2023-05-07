@@ -20,6 +20,7 @@ const Registration=()=>{
 
     const submitHandler = () => {
         console.log('state', name, email, preferredType, finalType)
+        setSuccess(false)
         const config ={
             headers : {	'Content-Type' : 'application/json'	}
         }
