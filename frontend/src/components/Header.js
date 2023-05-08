@@ -5,7 +5,7 @@ export const Header = () => {
 
     return(
         <div className="note">
-            <p>PAC JAM.. Event</p>
+            <p>JAM Event</p>
         </div>
     )
 }

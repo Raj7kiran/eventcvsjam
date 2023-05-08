@@ -57,7 +57,7 @@ const Registration=()=>{
     }
 
     return(
-        <div className="container register-form">
+        <div className="container register-form" style={{height:'calc(100vh - 80px)'}}>
             {
                 loading && <Loader />
             }

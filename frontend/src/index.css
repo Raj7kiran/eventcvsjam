@@ -12,11 +12,16 @@ code {
     monospace;
 }
 
+#root{
+  background: radial-gradient(circle, rgba(0,0,0,0.0984768907563025) 0%, rgba(93,114,139,0.21332282913165268) 100%);
+}
+
 .note
 {
     text-align: center;
     height: 80px;
-    background: -webkit-linear-gradient(left, #af3325, #c49831);
+    /* background: -webkit-linear-gradient(left, #af3325, #c49831); */
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(93,114,139,1) 100%);
     color: #fff;
     font-weight: bold;
     line-height: 80px;
@@ -38,6 +43,7 @@ code {
     padding: 5px 2rem;
     width: fit-content;
     cursor: pointer;
-    background: #0062cc;
+    background: #000000ba;
+    margin: 10px auto;
     color: #fff;
 }
