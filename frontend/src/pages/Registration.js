@@ -57,7 +57,7 @@ const Registration=()=>{
     }
 
     return(
-        <div className="container register-form" style={{height:'calc(100vh - 80px)'}}>
+        <div className="container register-form d-flex align-items-center justify-content-center" style={{height:'calc(100vh - 80px)'}}>
             {
                 loading && <Loader />
             }
@@ -67,7 +67,7 @@ const Registration=()=>{
             {
                 message &&  <Message variant='danger'>{message}</Message>
             }
-            <div className="form">
+            {/* <div className="form">
                 <div className="form-content">
                     <div className="row justify-content-center">
                         <div className="col-md-6">
@@ -96,6 +96,10 @@ const Registration=()=>{
                     </div>
                     <button onClick={submitHandler} type="button"  className="btnSubmit">Submit</button>
                 </div>
+            </div> */}
+            <div style={{textAlign:'center'}}>
+                <h3>Thank you for registering!</h3>
+                <h3>Registration has been closed!</h3>
             </div>
         </div>
     )
